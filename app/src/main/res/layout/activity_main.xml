@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<EditText
+    android:id="@+id/titleEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Song Title" />
+
+<EditText
+    android:id="@+id/artistEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Artist Name" />
+
+<EditText
+    android:id="@+id/ratingEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Rating (1-5)"
+    android:inputType="number"/>
+
+<EditText
+    android:id="@+id/commentEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Comments"/>
+
+<Button
+    android:id="@+id/btnAdd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Add to Playlist"/>
+
+<Button
+    android:id="@+id/btnView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="View Playlist"/>
+
+<Button
+    android:id="@+id/btnExit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="Exit"/>
+
+</LinearLayout>
+
